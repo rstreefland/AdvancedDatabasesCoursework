@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<crime xmlns="http://rhys.streefland.co.uk/" type="Substance Abuse">
+  <accused>
+    <accused_person id="1">
+      <name>
+        <title>Mr</title>
+        <forename>Jack</forename>
+        <surname>Davies</surname>
+      </name>
+      <dob>
+        <day>24</day>
+        <month>10</month>
+        <year>1993</year>
+      </dob>
+      <address>
+        <first_line>40 De Beauvoir Road</first_line>
+        <second_line>Reading</second_line>
+        <postcode>RG1 5NI</postcode>
+      </address>
+      <country_of_origin>England</country_of_origin>
+      <lawyer xmlns="http://rhys.streefland.co.uk/lawyer">
+        <title>Mr</title>
+        <forename>James</forename>
+        <surname>Matthews</surname>
+      </lawyer>
+      <involvement>Possession of 50g of cocaine</involvement>
+      <previous_conviction xmlns="http://rhys.streefland.co.uk/previousconviction">
+        <title>Possession of cannabis</title>
+        <date>
+          <day>1</day>
+          <month>3</month>
+          <year>2010</year>
+        </date>
+        <description>Posession of 10g of cannabis for personal use</description>
+      </previous_conviction>
+      <court_verdict>Guilty</court_verdict>
+      <sentence>
+        <length>1 year</length>
+        <description>Prison and 80 days community service</description>
+      </sentence>
+      <fine>500</fine>
+    </accused_person>
+    <accused_person id="2">
+      <name>
+        <title>Mr</title>
+        <forename>Samuel</forename>
+        <surname>Turner</surname>
+      </name>
+      <dob>
+        <day>12</day>
+        <month>2</month>
+        <year>1992</year>
+      </dob>
+      <address>
+        <first_line>46 De Beauvoir Road</first_line>
+        <second_line>Reading</second_line>
+        <postcode>RG1 5NL</postcode>
+      </address>
+      <country_of_origin>England</country_of_origin>
+      <lawyer xmlns="http://rhys.streefland.co.uk/lawyer">
+        <title>Mr</title>
+        <forename>James</forename>
+        <surname>Matthews</surname>
+      </lawyer>
+      <involvement>Caught insufflating cocaine</involvement>
+      <previous_conviction xmlns="http://rhys.streefland.co.uk/previousconviction">
+        <title />
+        <date>
+          <day>0</day>
+          <month>0</month>
+          <year>0</year>
+        </date>
+        <description />
+      </previous_conviction>
+      <fine>0</fine>
+    </accused_person>
+  </accused>
+  <witnesses>
+    <witness xmlns="http://rhys.streefland.co.uk/witness" id="1">
+      <name>
+        <title>Mr</title>
+        <forename>Alex</forename>
+        <surname>Round</surname>
+      </name>
+      <dob>
+        <day>16</day>
+        <month>9</month>
+        <year>1973</year>
+      </dob>
+      <address>
+        <first_line>80 Addington Road</first_line>
+        <second_line>Reading</second_line>
+        <postcode>RG1 2XY</postcode>
+      </address>
+      <occupation>Unemployed</occupation>
+      <type>Heresay</type>
+      <credibility>8</credibility>
+      <statement>I saw one suspect handing what looked like a bag of white power over to the other suspect. They both proceeded to snort the white substance. At which point I called the police.</statement>
+    </witness>
+  </witnesses>
+  <evidence>
+    <evidence_item xmlns="http://rhys.streefland.co.uk/evidence" id="1">
+      <title>50g of cocaine</title>
+      <type>Physical</type>
+      <description>50g of impure cocaine seized by the police from the prime suspect</description>
+      <credibility>10</credibility>
+      <supports>Prosecution</supports>
+    </evidence_item>
+  </evidence>
+  <court>
+    <case_number>3</case_number>
+    <court_date>
+      <day>26</day>
+      <month>2</month>
+      <year>2015</year>
+    </court_date>
+    <court_name>Reading court</court_name>
+    <court_type>Magistrates court</court_type>
+    <case_summary>The two suspects were discovered insufflating cocaine at the bottom of Addington road by a witness. The witness called the police and the police brought the two witnesses into custody. The remaining cocaine was seized by the police as evidence.</case_summary>
+  </court>
+  <crime_specific>
+    <name xmlns="http://rhys.streefland.co.uk/substanceabuse">Cocaine</name>
+    <type xmlns="http://rhys.streefland.co.uk/substanceabuse">Depressant</type>
+    <classification xmlns="http://rhys.streefland.co.uk/substanceabuse">A</classification>
+    <consumption xmlns="http://rhys.streefland.co.uk/substanceabuse">Insufflation</consumption>
+    <quantity_seized xmlns="http://rhys.streefland.co.uk/substanceabuse">50g</quantity_seized>
+    <street_value xmlns="http://rhys.streefland.co.uk/substanceabuse">200</street_value>
+    <intent_to_supply xmlns="http://rhys.streefland.co.uk/substanceabuse">No</intent_to_supply>
+    <associated_crimes xmlns="http://rhys.streefland.co.uk/substanceabuse" />
+  </crime_specific>
+</crime>

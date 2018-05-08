@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<crime xmlns="http://rhys.streefland.co.uk/" type="Manslaughter">
+  <accused>
+    <accused_person id="1">
+      <name>
+        <title>Mr</title>
+        <forename>Thomas</forename>
+        <surname>Clarke</surname>
+      </name>
+      <dob>
+        <day>15</day>
+        <month>11</month>
+        <year>1978</year>
+      </dob>
+      <address>
+        <first_line>32 London Road</first_line>
+        <second_line>Reading</second_line>
+        <postcode>RG1 7NH</postcode>
+      </address>
+      <country_of_origin>England</country_of_origin>
+      <lawyer xmlns="http://rhys.streefland.co.uk/lawyer">
+        <title>Mr</title>
+        <forename>Adam</forename>
+        <surname>Michaels</surname>
+      </lawyer>
+      <involvement>The driver of the vehicle</involvement>
+      <previous_conviction xmlns="http://rhys.streefland.co.uk/previousconviction">
+        <title>Drink Driving</title>
+        <date>
+          <day>12</day>
+          <month>2</month>
+          <year>2007</year>
+        </date>
+        <description>Twice over the legal limit whilst driving country lanes.</description>
+      </previous_conviction>
+      <court_verdict>Guilty</court_verdict>
+      <sentence>
+        <length>10 years</length>
+        <description>Prison with permanent disqualification from driving</description>
+      </sentence>
+      <fine>50000</fine>
+    </accused_person>
+    <accused_person id="2">
+      <name>
+        <title>Mr</title>
+        <forename>David</forename>
+        <surname>Clarke</surname>
+      </name>
+      <dob>
+        <day>20</day>
+        <month>4</month>
+        <year>1980</year>
+      </dob>
+      <address>
+        <first_line>32 London Road</first_line>
+        <second_line>Reading</second_line>
+        <postcode>RG1 7NH</postcode>
+      </address>
+      <country_of_origin>England</country_of_origin>
+      <lawyer xmlns="http://rhys.streefland.co.uk/lawyer">
+        <title>Mr</title>
+        <forename>Adam</forename>
+        <surname>Michaels</surname>
+      </lawyer>
+      <involvement>Passenger in the car. Failed to stop driver from using his mobile phone.</involvement>
+      <previous_conviction xmlns="http://rhys.streefland.co.uk/previousconviction">
+        <title />
+        <date>
+          <day>0</day>
+          <month>0</month>
+          <year>0</year>
+        </date>
+        <description />
+      </previous_conviction>
+      <fine>0</fine>
+    </accused_person>
+  </accused>
+  <victims>
+    <victim id="1">
+      <name>
+        <title>Mrs</title>
+        <forename>Hannah</forename>
+        <surname>Lawrence</surname>
+      </name>
+      <dob>
+        <day>9</day>
+        <month>12</month>
+        <year>1961</year>
+      </dob>
+      <address>
+        <first_line>30 Grant Avenue</first_line>
+        <second_line>Edinburgh</second_line>
+        <postcode>ED02 2UP</postcode>
+      </address>
+      <country_of_origin>Scotland</country_of_origin>
+      <lawyer xmlns="http://rhys.streefland.co.uk/lawyer">
+        <title>Ms</title>
+        <forename>Lucy</forename>
+        <surname>Bronze</surname>
+      </lawyer>
+      <compensation>50000</compensation>
+    </victim>
+    <victim id="2">
+      <name>
+        <title>Miss</title>
+        <forename>Megan</forename>
+        <surname>Lawrence</surname>
+      </name>
+      <dob>
+        <day>20</day>
+        <month>5</month>
+        <year>2003</year>
+      </dob>
+      <address>
+        <first_line>30 Grant Avenue</first_line>
+        <second_line>Edinburgh</second_line>
+        <postcode>ED02 2UPA</postcode>
+      </address>
+      <country_of_origin>Scotland</country_of_origin>
+      <lawyer xmlns="http://rhys.streefland.co.uk/lawyer">
+        <title>Ms</title>
+        <forename>Lucy</forename>
+        <surname>Bronze</surname>
+      </lawyer>
+      <compensation>0</compensation>
+    </victim>
+  </victims>
+  <witnesses>
+    <witness xmlns="http://rhys.streefland.co.uk/witness" id="1">
+      <name>
+        <title>Mr</title>
+        <forename>Jordan</forename>
+        <surname>Smith</surname>
+      </name>
+      <dob>
+        <day>10</day>
+        <month>2</month>
+        <year>1990</year>
+      </dob>
+      <address>
+        <first_line>18 Redford Road</first_line>
+        <second_line>Edinburgh</second_line>
+        <postcode>ED09 9PA</postcode>
+      </address>
+      <occupation>Young Professional</occupation>
+      <type>Heresay</type>
+      <credibility>7</credibility>
+      <statement>I saw the driver using his mobile phone whilst he hit the curb and his car spun out of control, hitting two innocent bystanders.</statement>
+    </witness>
+    <witness xmlns="http://rhys.streefland.co.uk/witness" id="2">
+      <name>
+        <title>Mrs</title>
+        <forename>Abigail</forename>
+        <surname>Morgan</surname>
+      </name>
+      <dob>
+        <day>30</day>
+        <month>12</month>
+        <year>1981</year>
+      </dob>
+      <occupation />
+      <type>Expert</type>
+      <credibility>10</credibility>
+      <statement>A detailed analysis of the skid marks on the road reveals that the driver was not concentrating on the road until he hit the curb. At which point he overreacted to try and correct his mistake, which sent the car out of control.</statement>
+    </witness>
+  </witnesses>
+  <evidence>
+    <evidence_item xmlns="http://rhys.streefland.co.uk/evidence" id="1">
+      <title>Tyre skid marks on the road</title>
+      <type>Physical</type>
+      <description>The skid marks allowed an expert witness to determine that the primary cause of the accident was the fact that the driver was concentrating on his phone, not the road.</description>
+      <credibility>6</credibility>
+      <supports>Prosecution</supports>
+    </evidence_item>
+  </evidence>
+  <court>
+    <case_number>2</case_number>
+    <court_date>
+      <day>3</day>
+      <month>1</month>
+      <year>2015</year>
+    </court_date>
+    <court_name>Edinburgh crown court</court_name>
+    <court_type>Crown court</court_type>
+    <case_summary>The driver was driving down a busy main road above the speed limit whilst using his mobile phone. His car drifted and hit the curb. He lost control and then hit two innocent bystanders, a mum and her daughter. Both victims were admitted to hospital but died from their injuries</case_summary>
+  </court>
+  <crime_specific>
+    <type xmlns="http://rhys.streefland.co.uk/manslaughter">Involuntary</type>
+    <seriousness xmlns="http://rhys.streefland.co.uk/manslaughter">Felony</seriousness>
+    <loss_of_control xmlns="http://rhys.streefland.co.uk/manslaughter">No</loss_of_control>
+    <vehicle_involved xmlns="http://rhys.streefland.co.uk/manslaughter">Yes</vehicle_involved>
+  </crime_specific>
+</crime>

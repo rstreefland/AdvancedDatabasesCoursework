@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<crime xmlns="http://rhys.streefland.co.uk/" type="Fraud">
+  <accused>
+    <accused_person id="1">
+      <name>
+        <title>Mr</title>
+        <forename>James</forename>
+        <surname>Hayward</surname>
+      </name>
+      <dob>
+        <day>11</day>
+        <month>3</month>
+        <year>1992</year>
+      </dob>
+      <address>
+        <first_line>17 George Street</first_line>
+        <second_line>Oxford</second_line>
+        <postcode>OX1 5UN</postcode>
+      </address>
+      <country_of_origin>England</country_of_origin>
+      <lawyer xmlns="http://rhys.streefland.co.uk/lawyer">
+        <title>Mr</title>
+        <forename>Daniel</forename>
+        <surname>Murdoch</surname>
+      </lawyer>
+      <involvement>Mr Hayward was the mastermind of an attempt to defraud thousand of people by using their stolen credit card details to pay for payday loans</involvement>
+      <previous_conviction xmlns="http://rhys.streefland.co.uk/previousconviction">
+        <title>Email fraud</title>
+        <date>
+          <day>21</day>
+          <month>1</month>
+          <year>2010</year>
+        </date>
+        <description>Mr Hayward was convicted of email fraud because he was discovered to be sending emails to his victims posing as reputable organisations and attempting extort their credit card details.</description>
+      </previous_conviction>
+      <court_verdict>Guilty</court_verdict>
+      <sentence>
+        <length>5 years</length>
+        <description>To be served in prison without any access to computers.</description>
+      </sentence>
+      <fine>10000</fine>
+    </accused_person>
+    <accused_person id="2">
+      <name>
+        <title>Ms</title>
+        <forename>Jess</forename>
+        <surname>Bradbury</surname>
+      </name>
+      <dob>
+        <day>2</day>
+        <month>8</month>
+        <year>1989</year>
+      </dob>
+      <address>
+        <first_line>28 South Street</first_line>
+        <second_line>Oxford</second_line>
+        <postcode>OX2 5NW</postcode>
+      </address>
+      <country_of_origin>England</country_of_origin>
+      <lawyer xmlns="http://rhys.streefland.co.uk/lawyer">
+        <title>Mr</title>
+        <forename>Jason</forename>
+        <surname>Chapman</surname>
+      </lawyer>
+      <involvement>Ms Bradbury was an accomplice who often telephoned victims pretending to represent a genuine company in order to convince them to hand over their credit card details.</involvement>
+      <previous_conviction xmlns="http://rhys.streefland.co.uk/previousconviction">
+        <title />
+        <date>
+          <day>0</day>
+          <month>0</month>
+          <year>0</year>
+        </date>
+        <description />
+      </previous_conviction>
+      <fine>0</fine>
+    </accused_person>
+  </accused>
+  <victims>
+    <victim id="1">
+      <name>
+        <title>Mr</title>
+        <forename>Steve</forename>
+        <surname>Evans</surname>
+      </name>
+      <dob>
+        <day>13</day>
+        <month>9</month>
+        <year>1971</year>
+      </dob>
+      <address>
+        <first_line>81 Woodfield Avenue</first_line>
+        <second_line>Pontlliw, Swansea</second_line>
+        <postcode>SA6 8SJ</postcode>
+      </address>
+      <country_of_origin>Wales</country_of_origin>
+      <lawyer xmlns="http://rhys.streefland.co.uk/lawyer">
+        <title>Mrs</title>
+        <forename>Sophie</forename>
+        <surname>Watkins</surname>
+      </lawyer>
+      <compensation>1000</compensation>
+    </victim>
+    <victim id="2">
+      <name>
+        <title>Miss</title>
+        <forename>Jane</forename>
+        <surname>Thomas</surname>
+      </name>
+      <dob>
+        <day>27</day>
+        <month>12</month>
+        <year>1955</year>
+      </dob>
+      <address>
+        <first_line>19 Erleigh Road</first_line>
+        <second_line>Reading</second_line>
+        <postcode>RG1 9WP</postcode>
+      </address>
+      <country_of_origin>England</country_of_origin>
+      <lawyer xmlns="http://rhys.streefland.co.uk/lawyer">
+        <title>Mr</title>
+        <forename>Adrian</forename>
+        <surname>Woods</surname>
+      </lawyer>
+      <compensation>0</compensation>
+    </victim>
+  </victims>
+  <evidence>
+    <evidence_item xmlns="http://rhys.streefland.co.uk/evidence" id="1">
+      <title>Credit card transaction logs</title>
+      <type>Digital</type>
+      <description>These logs show that the same quantity of cash taken from the victims accounts appears in the suspects joint account</description>
+      <credibility>8</credibility>
+      <supports>Prosecution</supports>
+    </evidence_item>
+  </evidence>
+  <court>
+    <case_number>1</case_number>
+    <court_date>
+      <day>28</day>
+      <month>2</month>
+      <year>2015</year>
+    </court_date>
+    <court_name>Oxford court</court_name>
+    <court_type>Crown court</court_type>
+    <case_summary>Mr Hayward and Ms Bradbury attempted to defraud innocent victims into handing over their credit card details. These card details were then used to pay back pay day loans in order to ensure that the money could not be traced easily to the suspects</case_summary>
+  </court>
+  <crime_specific>
+    <type xmlns="http://rhys.streefland.co.uk/fraud">Online fraud</type>
+    <target xmlns="http://rhys.streefland.co.uk/fraud">Multiple Individuals</target>
+    <cost xmlns="http://rhys.streefland.co.uk/fraud">2000</cost>
+  </crime_specific>
+</crime>

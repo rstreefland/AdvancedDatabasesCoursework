@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<crime xmlns="http://rhys.streefland.co.uk/" type="Fraud">
+  <court>
+    <case_number>4</case_number>
+    <court_date>
+      <day>19</day>
+      <month>2</month>
+      <year>2015</year>
+    </court_date>
+    <court_name>Cardiff court</court_name>
+    <court_type>Magistrates court</court_type>
+    <case_summary />
+  </court>
+  <crime_specific>
+    <cost xmlns="http://rhys.streefland.co.uk/fraud">0</cost>
+  </crime_specific>
+</crime>
